@@ -1,0 +1,13 @@
+/* styles.css */
+
+/* DIV style using External Method */
+div {
+    background-color: red;
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    height: auto;
+    width: 50rem;
+}
