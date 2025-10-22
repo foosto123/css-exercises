@@ -3,14 +3,40 @@ body {
 }
 
 img {
+  display: flex;
   width: 100px;
   height: 100px;
 }
 
 .title {
+  display: flex;
+  justify-content: center;
   font-size: 36px;
   font-weight: 900;
+  padding-bottom: 32px;
 }
+
+.plantlist {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 52px;
+}
+
+.plant1, .plant2, .plant3, .plant4 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 200px;
+}
+
+.text {
+    padding-top: 16px;
+}
+
+.
 
 /* do not edit this footer */
 .footer {
@@ -23,4 +49,5 @@ img {
   align-items: center;
   justify-content: center;
   background: #eee;
+  padding-top: 80px;
 }
